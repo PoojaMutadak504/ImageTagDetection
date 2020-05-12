@@ -1,10 +1,5 @@
 # ASP.NET Core (.NET Framework)
-- task: BlazeMeter Integration@1
-  inputs:
-    testurl: 'https://a.blazemeter.com/app/#/accounts/407816/workspaces/406064/projects/497152/tests/7870589'
-    apikey: '02fd80c894dc444dd3186d1c'
-    apisecret: '766d360716cdc245f3fa95a7a25f7cdbf89e90892b84838d57f97e0772b4f08b2c36fce4'
-    showtaillog: true
+
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
 # Add steps that publish symbols, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
@@ -38,3 +33,9 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+- task: BlazeMeter Integration@1
+  inputs:
+    testurl: 'https://a.blazemeter.com/app/#/accounts/407816/workspaces/406064/projects/497152/tests/7870589'
+    apikey: '02fd80c894dc444dd3186d1c'
+    apisecret: '766d360716cdc245f3fa95a7a25f7cdbf89e90892b84838d57f97e0772b4f08b2c36fce4'
+    showtaillog: true
