@@ -36,6 +36,6 @@ steps:
 - task: BlazeMeter Integration@1
   inputs:
         testurl: 'https://a.blazemeter.com/app/#/accounts/407816/workspaces/406064/projects/497152/tests/7870589'
-        apikey: '$(APIKEY)'
-        apisecret: '$(APISECRET)'
+        apikey: '02fd80c894dc444dd3186d1c'
+        apisecret: '766d360716cdc245f3fa95a7a25f7cdbf89e90892b84838d57f97e0772b4f08b2c36fce4'
         showtaillog: true
