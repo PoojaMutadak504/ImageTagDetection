@@ -12,5 +12,6 @@ jobs:
       FOO: "bar"    
     steps:
       - checkout
+      - powershell -File build.ps1
       - run: Write-Host "Hello $TEST_VAR" # Prints "Hello "
       - run: Write-Host "Hello $FOO" # Prints "Hello "
