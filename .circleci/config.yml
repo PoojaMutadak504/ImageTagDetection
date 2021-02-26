@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-    hello: blazemeter-plugin/run-test@0.0.2
+    hello: blazemeter-plugin/run-test@0.0.3
 workflows:
     "Hello Workflow":
         jobs:
