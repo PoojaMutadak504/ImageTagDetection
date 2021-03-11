@@ -2,5 +2,4 @@ pipeline:
   power-pipe: 
     image: mcr.microsoft.com/powershell:ubuntu-16.04
     commands: 
-      - pwsh test.ps1 $O365_USERNAME $O365_PASSWORD
-    secrets: [o365_username, o365_password]
+      - pwsh blazemeter-drone.ps1 
