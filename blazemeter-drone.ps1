@@ -1,7 +1,7 @@
 param (
-    [string]$apikey="756b7be7f58307103f0e98cb",
-    [string]$apisecret="29c097cdb0723034013ed13e706192271e715b32375780105cd2ec796911584999d5670c",
-    [string]$testurl='https://a.blazemeter.com/app/#/accounts/140171/workspaces/438644/projects/538695/tests/8773090/edit' ,
+    [string]$apikey="b9107809a101b8b788e9964f",
+    [string]$apisecret="24da75ad1302cfb986fe84846288e3c9aecb61742a269f0927db60b286aedbf4f9c28df6",
+    [string]$testurl='https://a.blazemeter.com/app/#/accounts/140171/workspaces/438644/projects/538695/tests/9092315/edit' ,
 	[string]$showtaillog ='true',
 	[string]$createtest ='false',
 	[string]$testname ,	
