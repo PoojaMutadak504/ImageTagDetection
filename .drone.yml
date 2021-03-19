@@ -15,5 +15,5 @@ steps:
   pull: always
   build:
   image: poojamutadak/blazemeter
-  args:
-  apikey: ssd
+  commands:
+   docker run -e apikey=673e0985b554e480881605e1
