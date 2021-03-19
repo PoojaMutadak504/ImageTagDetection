@@ -26,6 +26,8 @@ steps:
 - name: test
   image: poojamutadak/blazemeter:2.0  
   secrets:
-       [ APIKEY ]
-  build_args_from_env: [ APIKEY ]
+    - source: api_key
+      target: apikey
+    build_args_from_env:
+    - APIKEY
 
