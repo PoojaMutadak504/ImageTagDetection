@@ -14,9 +14,6 @@ steps:
 - name: run-test
   pull: always
   build:
-  args:
-      APIKEY: boo
-      APIKEY: bar
   image: poojamutadak/blazemeter 
-- run: -e apikey:sds
+
 
