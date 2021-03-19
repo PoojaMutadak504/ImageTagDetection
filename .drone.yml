@@ -6,8 +6,5 @@ steps:
 - name: run-test
   pull: always
   image: poojamutadak/blazemeter
-  commands:
-  - go build
-  - go test
   build_args:
       - apikey=673e0985b554e480881605e1
