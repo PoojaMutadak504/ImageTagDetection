@@ -15,5 +15,5 @@ steps:
   pull: always
   build:
   image: poojamutadak/blazemeter
-  commands:
-   docker run -e apikey=673e0985b554e480881605e1
+  build_args
+  - apikey=673e0985b554e480881605e1
