@@ -1,9 +1,31 @@
+# kind: pipeline
+# type: docker
+# name: default
+
+# workspace:
+  # path: /home/blazemeter
+  
+# platform:
+  # os: linux
+  # arch: amd64
+  
+  
+# steps:
+# - name: run-test
+  # pull: always
+  # build:
+  # environment:
+    # APIKEY:
+      # from_secret: APIKEY   
+  # image: poojamutadak/blazemeter 
+
 kind: pipeline
 name: default
 
 steps:
 - name: test
-  image: poojamutadak/blazemeter:2.0
+  image: poojamutadak/blazemeter:2.0  
   secrets:
        [ APIKEY ]
+  build_args_from_env: [ APIKEY ]
 
