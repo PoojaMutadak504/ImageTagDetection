@@ -15,4 +15,4 @@ steps:
   pull: always
   image: poojamutadak/blazemeter
   build_args:
-      - apikey=673e0985b554e480881605e1
+   - apikey=673e0985b554e480881605e1
