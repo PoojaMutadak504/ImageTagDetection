@@ -1,10 +1,10 @@
-pipeline:
-  steps:
-- name: docker  
-  image: poojamutadak/blazemeter
-  settings:
-    username: poojamutadak
-    password: Advik@123
-    repo: poojamutadak/blazemeter
-    build_args:
-      - apikey=673e0985b554e480881605e1
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: greeting
+  image: alpine
+  commands:
+  - echo hello
+  - echo world
