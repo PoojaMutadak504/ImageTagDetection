@@ -1,5 +1,10 @@
 pipeline:
-  power-pipe: 
-    image: poojamutadak/blazemeter:latest
-    commands: 
-      - docker run  -v G:\dockervolume:/home/blazemeter-file  -e apikey=673e0985b554e480881605e1 -e apisecret=f4077e40595c183537225e9f30a8c08f311d2166bcedb4336be7e49854cc6540e4c159a2 -e testname="Pooja Testing Docker" -e projectid=881861 -e createtest=true -e inputstartfile=BMT_Pass.jmx -e testurl=https://a.blazemeter.com/app/#/accounts/140171/workspaces/438644/projects/538695/tests/9092315/edit   -it 3723bebc9db9
+  steps:
+- name: docker  
+  image: poojamutadak/blazemeter
+  settings:
+    username: poojamutadak
+    password: Advik@123
+    repo: poojamutadak/blazemeter
+    build_args:
+      - apikey=673e0985b554e480881605e1
