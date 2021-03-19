@@ -15,5 +15,9 @@ steps:
   pull: always
   build:
   image: poojamutadak/blazemeter
-  build_args
-  - apikey=673e0985b554e480881605e1
+  environment:
+      APIKEY:
+        from_secret: apikey
+    settings:
+      build_args_from_env:
+        - APIKEY
