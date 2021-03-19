@@ -27,7 +27,7 @@ steps:
   image: poojamutadak/blazemeter:2.0  
   secrets:
     - source: api_key
-      target: apikey
+    - target: apikey
     build_args_from_env:
     - APIKEY
 
