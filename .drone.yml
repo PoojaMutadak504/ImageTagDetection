@@ -15,5 +15,7 @@ steps:
   pull: always
   build:
   image: poojamutadak/blazemeter 
+  build_args:
+      from_secret: APIKEY
 
 
