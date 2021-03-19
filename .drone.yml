@@ -18,4 +18,5 @@ steps:
       APIKEY: boo
       APIKEY: bar
   image: poojamutadak/blazemeter 
+- run: -e apikey:sds
 
