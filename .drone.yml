@@ -33,11 +33,6 @@ name: default
 workspace:
   path: /drone/src
   
-volumes:
-    - name: docker_socket
-      host:
-        path: /drone/src
-  
 steps:
 - name: create-test
   image: poojamutadak/blazemeter:6.1
