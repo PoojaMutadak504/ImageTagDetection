@@ -14,9 +14,9 @@ steps:
     apisecret: f4077e40595c183537225e9f30a8c08f311d2166bcedb4336be7e49854cc6540e4c159a2
     testname: Pooja Drone with Dependencies
     projectid: 881861
-    createtest: true
+    createtest: false
     inputstartfile: BlazeDemoTest.jmx
     inputallfiles: /drone/src/Dependencies
-    testurl: https://a.blazemeter.com/app/#/accounts/140171/workspaces/438644/projects/538695/tests/9092315/edit
-    Uploadfilechk: true
+    testurl: https://a.blazemeter.com/app/#/accounts/140171/workspaces/133647/projects/881861/tests/9225544
+    Uploadfilechk: false
     
