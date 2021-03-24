@@ -17,8 +17,8 @@ steps:
     testname: No
     projectid: 881861
     createtest: false
-    inputstartfile: -
-    inputallfiles: -
+    inputstartfile: No
+    inputallfiles: No
     testurl: https://a.blazemeter.com/app/#/accounts/140171/workspaces/133647/projects/881861/tests/9225544
     Uploadfilechk: false
     
