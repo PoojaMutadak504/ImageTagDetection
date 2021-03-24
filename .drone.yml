@@ -19,5 +19,6 @@ steps:
     createtest: true
     inputstartfile: BlazeDemoTest.jmx
     inputallfiles: /drone/src/Dependencies
+    testurl: ''
     Uploadfilechk: true
     
