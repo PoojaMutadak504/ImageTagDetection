@@ -13,7 +13,7 @@ steps:
     apikey:
       from_secret: apiKey
     apisecret:
-    from_secret: apiSecret
+      from_secret: apiSecret
     testname: Drone Demo
     projectid: 881861
     createtest: true
