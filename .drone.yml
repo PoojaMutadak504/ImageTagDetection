@@ -15,7 +15,7 @@ steps:
       from_secret: apiKey
     apisecret:
       from_secret: apiSecret
-    testname: Drone Pipeline
+    testname: Drone Pipeline Demo 
     projectid: 881861
     createtest: true
     inputstartfile: BlazeDemoTest.jmx
