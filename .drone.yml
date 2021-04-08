@@ -15,16 +15,16 @@ steps:
       from_secret: apiKey
     apisecret:
       from_secret: apiSecret
-    testname: Drone Pipeline Demo  Pooja
+    testname: Drone Pipeline Demo  Pooja 2
     projectid: 881861
     createtest: true
     inputstartfile: BlazeDemoTest.jmx
     inputallfiles: /drone/src/Dependencies  
     testurl: No
     Uploadfilechk: true
-    totalusers: 40
-    duration: 2
+    totalusers: 1
+    duration: 1
     rampup: 1
-    ContinuePipeline: true
+    ContinuePipeline: false
 
     
