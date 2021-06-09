@@ -9,21 +9,13 @@ workspace:
   
 steps:
 - name: create-test
-  image: poojamutadak/blazemeter:5.2
+  image: poojamutadak/blazemeter:5.0
   environment:   
     apikey:
       from_secret: apiKey
     apisecret:
       from_secret: apiSecret
-    testname: Drone Pipeline Demo  Pooja 7
-    projectid: 881861
-    createtest: true
-    inputstartfile: BlazeDemoTest.jmx
-    inputallfiles: /drone/src/Dependencies  
-    uploadfilechk: true
-    totalusers: 1
-    duration: 1
-    rampup: 1
+    testid: 9562975
     continuepipeline: true
 
     
