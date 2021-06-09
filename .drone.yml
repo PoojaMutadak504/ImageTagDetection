@@ -15,7 +15,8 @@ steps:
       from_secret: apiKey
     apisecret:
       from_secret: apiSecret
-    testid: 9562975
+    testid: 10166181
     continuepipeline: true
+    multitests: true
 
     
