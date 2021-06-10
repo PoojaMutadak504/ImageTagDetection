@@ -9,7 +9,7 @@ workspace:
   
 steps:
 - name: create-test
-  image: poojamutadak/blazemeter:5.2
+  image: blazerunner/blazemeter:latest
   environment:   
     apikey:
       from_secret: apiKey
