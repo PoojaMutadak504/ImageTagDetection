@@ -8,8 +8,8 @@ workspace:
   path: /drone/src
   
 steps:
-- name: create-test
-  image: blazerunner/blazemeter:latest
+- name: run-test
+  image: blazerunner/blazemeter
   environment:   
     apikey:
       from_secret: apiKey
