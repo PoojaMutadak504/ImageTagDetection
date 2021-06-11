@@ -1,5 +1,3 @@
-
-
 kind: pipeline
 name: default
 
@@ -8,15 +6,16 @@ workspace:
   path: /drone/src
   
 steps:
-- name: run-test
+- name: create-test
   image: blazerunner/blazemeter
   environment:   
     apikey:
       from_secret: apiKey
     apisecret:
       from_secret: apiSecret
-    testid: 9562975
-    continuepipeline: true
-
-
-    
+    testname: Drone Pipeline Demo
+    projectid: 881861
+    createtest: true
+    inputstartfile: BlazeDemoTest.jmx
+    inputallfiles: /drone/src/Dependencies  
+    uploadfilechk: true
