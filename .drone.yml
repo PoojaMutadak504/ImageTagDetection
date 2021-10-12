@@ -13,9 +13,4 @@ steps:
       from_secret: apiKey
     apisecret:
       from_secret: apiSecret
-    testname: Drone Pipeline Demo
-    projectid: 881861
-    createtest: true
-    inputstartfile: BlazeDemoTest.jmx
-    inputallfiles: /drone/src/Dependencies  
-    uploadfilechk: true
+    testid: 9927679
