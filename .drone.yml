@@ -12,4 +12,4 @@ steps:
     apikey: bc3fe837c92453778f625575
     apisecret: 035b3c858209d84b04ee9946cabd120efe3b18ea4767c39147976b5ef1b598782c97d0c2
     testid: 9927679
-    ContinuePipeline: false
+    continuepipeline: false
