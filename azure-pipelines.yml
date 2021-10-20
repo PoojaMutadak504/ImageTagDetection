@@ -18,8 +18,10 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-- task: Priyanka@1
+
+- task: BlazeMeter Integration@1
   inputs:
-    apikey: 'ssdfg'
+    testurl: 'https://a.blazemeter.com/app/#/accounts/$(AccounID)/workspaces/$(WorkSpaceID)/projects/$(ProjectID)/tests/$(TestID)/edit'
+    apikey: 'zdxzxz'
     apisecret: 'sdfghvfd'
     testid: 'wertyhnbvcd'
