@@ -11,5 +11,14 @@ steps:
   environment:   
     apikey: 673e0985b554e480881605e1
     apisecret: 570f3adadb95ce61bccb6a1097e9f0c69fa5e1d650b5040ea74aeaaa1f0d63bc5babbf0b
-    testid: 9874872
-    continuepipeline: false
+    testname: Drone Pipeline Demo  
+    projectid: 997342
+    createtest: true
+    inputstartfile: BlazeDemoTest.jmx
+    inputallfiles: /drone/src/Dependencies    
+    uploadfilechk: true
+    totalusers: 40
+    duration: 2
+    rampup: 1
+    continuepipeline: true
+
