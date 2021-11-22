@@ -7,7 +7,7 @@ workspace:
   
 steps:
 - name: create-test
-  image: dnyaneshwarnagre/blazemeter:1.4.2
+  image: blazerunner/blazemeter:1.4.2
   pull: always
   environment:   
     apikey: 673e0985b554e480881605e1
